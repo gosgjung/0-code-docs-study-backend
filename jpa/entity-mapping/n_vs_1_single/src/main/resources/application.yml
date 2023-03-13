@@ -7,8 +7,8 @@ spring:
     activate:
       on-profile: local-postgres
   datasource:
-    url: jdbc:postgresql://localhost:15432/testadmin
-    username: testadmin
+    url: jdbc:postgresql://localhost:15432/postgres
+    username: postgres
     password: 1111
     hikari:
       auto-commit: true
